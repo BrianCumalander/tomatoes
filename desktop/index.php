@@ -19,32 +19,20 @@
               
               <span class="qty-title">Tomatoes</span>
               <p></p>
-         
-              
-
-
-                      <div class="custContainer">
+                     <div class="custContainer">
                           <a href="../add.php">
                           <label class="btnBox addTomatoes">Add tomatoes <label style="font-size:100%">+</label></label>
                           </a>
                           <label class="btnBox btn3Color">Most Picked at once: <?php echo $maxPicked[0]; ?></label><br>
                           <label class="btnBox btn4Color">Average <?php echo $avg[0]; ?></label>
                      </div>
-
-
-
                   <p></p>
                   
                <div class="custContainer">
-                       <!--(comming soon, like the next time I get around to it..)
-                       <a="#top"></a> export as <a href ="" class="btn-primary btn-sm">excel</a> <a href="" class="btn-warning btn-sm">pdf</a><br>
-                          -->
                        <?php include('report.php'); ?>
                        <a href="#top" class="btn btn-danger"><i class="fa fa-home" aria-hidden="true"></i> Go back to top</a>
-              
-    <p></p>
+                 <p></p>
                </div>
-
 </div>
 
 <?php include('footer.php'); ?>
