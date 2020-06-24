@@ -1,0 +1,58 @@
+div {
+    font-weight: bold;
+    text-align: center;
+}
+.body {
+    background-color:#3e4053;
+    color: white;
+    font-size: 3ex; /* ex is computer height, all em sizes will be based off of this ex size */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.qty {
+    font-size: 8rem;
+}
+.qty-title {
+    font-size: 2rem;
+}
+.txt-white {
+    font-size: 70%;
+}
+.txt-white2 {
+    font-size: 99%;
+}
+.container {
+    margin: 0 auto;
+    width: 84%;    
+    padding: 6px;
+}
+.btnBox { 
+    border-radius: 10px;
+    width: 171px;
+    height: 168px;
+    padding: 10px; 
+    margin: 5px;
+    position: relative;
+}
+.btn1Color { 
+    background-image: linear-gradient(#871F2A,#B5282D);
+}
+.btn2Color {
+    background-image: linear-gradient(#B3212F,#E99149);
+}
+.btn3Color {
+    background-image: linear-gradient(#B86C34,#EDCA37);
+}
+.btn4Color {
+    background-image: linear-gradient(#499653,#6BB955);
+}
+.linkOverlay
+{  /* needed on main page buttons, this overlay fills entire button area in order to make entire button clickable */
+    background: red;
+    opacity: 0;
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    z-index:1;
+}
