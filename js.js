@@ -1,2 +1,0 @@
-// to upper
-"hi".toUpperCase();
