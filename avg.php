@@ -1,6 +1,6 @@
 <?php
   //----------------AVG-------------
-  $avg_query = "SELECT AVG(qty) FROM tomatoes"; // WHERE user = 'Brian'";    
+  $avg_query = "SELECT AVG(qty) FROM tomatoes";    
   $avg_result = mysqli_query ($conn, $avg_query); // Run the query.
   $avg_row = mysqli_fetch_array($avg_result);
   //echo $row[0];

@@ -56,3 +56,16 @@ div {
     top:0;
     z-index:1;
 }
+.btnTop { 
+    border-radius: 10px;
+    width: auto;         /* 171px */
+    height: auto;        /* 168px */
+    padding: 8px; 
+    margin: 5px;
+    position: relative;
+}
+.btnRed { 
+    color: #FFFFFF; 
+    background-color: #B5282D; 
+    border-color: #871F2A; 
+  } 

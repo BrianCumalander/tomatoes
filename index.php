@@ -11,8 +11,6 @@ mysqli_close($conn);
 ?>
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 
 <!--Redirect screen sizes wider than a specified size, to the desktop page -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -44,12 +42,16 @@ window.location = "./desktop/index.php";
               
                 <div class="row">
         
-                    
+                    <!-- These button links are custom because the buttons are created with css.
+ 						 The text lays on top of the button, then I've created the 'linkOverlay'
+                         with css that allows the entire button area to be clickable rather than 
+                         only the text.
+                    -->
                       
                   <div class="btnBox btn1Color"><p>Add<br>Tomatoes<br>
                     <label style="font-size:230%">+</label> <!--hard-coded font size since the '+' character needs higher-than-average font size-->
                     <a href="add.php">
-                      <span class="linkOverlay"></span>
+                    <span class="linkOverlay"></span>
                     </a>
                   </div>
                   <p>
@@ -64,11 +66,18 @@ window.location = "./desktop/index.php";
         
                   <div class="btnBox btn3Color"><p>Most Picked<br>at once<br>
                       <label style="font-size:150%"><?php echo $maxPicked[0]; ?></label>
+                      <a href="report.php">
+                      <span class="linkOverlay"></span>
+                      </a>
+                      
                   </div>
                   <p>
                     
-                  <div class="btnBox btn4Color"><br><p>Average<br>
-                    <label style="font-size:150%"><?php echo $avg[0]; ?></label>
+                  <div class="btnBox btn4Color"><br><p>About this<br>App
+                      <label style="font-size:150%"></label>
+                      <a href="./desktop/about.php">
+                      <span class="linkOverlay"></span>
+                      </a>
                   </div>
                   <p>
         

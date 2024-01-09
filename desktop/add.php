@@ -1,6 +1,6 @@
 <?php
 
-include('config/db_connect.php');
+include('../config/db_connect.php');
 
 	//$errors will catch any errors. currently errors are sent to => nothing, as in, '' for each field.
 	$errors = array('qty'=>'');
@@ -50,13 +50,11 @@ include('config/db_connect.php');
 
 <?php include('header.php'); ?>
 
-    <link rel="stylesheet" href="content/mobile.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <body class="body">
 
 
-   <div class="container align-middle txt-white">
-
+   
+<div class="text-white">
     <span class="qty-title">Add Tomatoes!</span><br>
 
     <form action="add.php" method="POST">
@@ -79,7 +77,6 @@ the user would need to choose to 'cancel' their input.-->
                  </p>
 
 	</form>
-
-   </div>
+</div>
 
 <?php include('footer.php'); ?>

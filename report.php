@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
  
-      <div class="txt-white">
+      <div class="txt-white" id="top">
           <p><span class="qty-title container">Tomato Pickin' Report</span></p>
           
     <a href="index.php" class="btn btn-danger"><i class="fa fa-home" aria-hidden="true"></i> Go back</a>
@@ -51,5 +51,14 @@
         </table>
         
         </div>
-        
-<?php include('footer.php'); ?>
+
+            
+       <p>      
+      <a href="#top">
+         <span class="btnTop btnRed">Go back to top</span>
+      </a> 
+     </p>
+    
+  
+
+  <?php include('footer.php'); ?>

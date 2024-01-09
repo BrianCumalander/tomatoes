@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>Count Tomatoes!</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+    <link rel="shortcut icon" href="../content/images/favicon.ico">
+    <link rel="icon" type="image/gif" href="../content/images/animated_favicon1.gif">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

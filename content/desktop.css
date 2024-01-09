@@ -1,12 +1,34 @@
-.custBody {
-    background-color:#3e4053;
+body {
+  display: flex;
+   width: 100%; 
+   align-items: center;
+    justify-content: center;
+    
+  background-color:#3e4053;
     color: white;
-    font-size: 3ex; /* ex is computer height, all em sizes will be based off of this ex size */
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  
+  }
+       
+
+.infoBox {
+    
+    width: 600px;
+
+    @media only screen and (max-width: 650px) {width: 350px;}
+    
 }
-.custBodyImage {
-  background-image: url("tomatoWallpaper.jpg");
+
+.title-blurb {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 500;
+
+    @media only screen and (max-width: 650px) {font-weight: 450; font-size: 1em}
+    
 }
+
+
 .custDiv {
     font-weight: bold;
     text-align: center;

@@ -1,7 +1,5 @@
 
-      <div class="txt-white">
-          <p><span class="qty-title">Tomato Pickin' Report</span></p>
-          
+          <p><h1>Tomato Pickin' Report</h1></p>
 
         
         <table class="table table-bordered">
@@ -15,7 +13,7 @@
         
           include('../config/db_connect.php');
         
-        
+          //build the table:
           //return records, decending order
           $sqlt = "SELECT qty, created_at FROM tomatoes ORDER BY created_at DESC";
         
@@ -39,7 +37,7 @@
           $rows = mysqli_fetch_array($rowTotal);    
         
           $totalRows = $rows[0];
-          echo '<p><h3><span class="badge badge-secondary">' . $totalRows . ' records</span></h3></p>';     
+          echo '<h4>Total tomatoes picked: ' . $qty . '</h4><h4>Total times picked: ' . $totalRows . '</h4>';     
 
         
           $conn->close();
@@ -48,5 +46,5 @@
           </tbody>
         </table>
 
-        </div>
+       
         
