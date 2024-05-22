@@ -1,9 +1,10 @@
 # Tomatoes
 
-A record keeping web app for my tomato harvest in 2019. I lived in an apartment in the mid-west and grew cherry tomatoes out on my west-facing deck.
-In total, I picked 443 tomatoes from 07/02/2019 to 11/01/2019.
+My girlfriend and I had a garden of cherry tomatoes that was growing by leaps and bounds. 
+I made this record keeping web app to keep track of how many tomatoes we picked that summer. 
+In total, we picked 443 tomatoes in the course of 4 months!
 
-* Uses PHP, mySQL, Bootstrap, and custom CSS.
+* Uses PHP, mySQL, Materialize, and custom CSS.
 
 
 ## Screenshots
